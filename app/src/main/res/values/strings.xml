@@ -27,4 +27,7 @@
     <string name="validasi23">Kolom 3, Inputan Nilai Hanya A ~ E </string>
     <string name="validasi24">Kolom 4, Inputan Nilai Hanya A ~ E </string>
 
+
+    <string name="validasiBersih">Tidak Ada Yang Harus Dibersihkan </string>
+
 </resources>

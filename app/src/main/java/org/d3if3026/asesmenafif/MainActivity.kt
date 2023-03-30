@@ -17,22 +17,56 @@ class MainActivity : AppCompatActivity() {
 
         binding.hitungIps.setOnClickListener { hitungIps() }
         binding.bersihButton.setOnClickListener { bersih() }
+
     }
 
-//BESIH BUTTON
+    //BESIH BUTTON
     fun bersih() {
+
+        var mk = binding.mk1Input.text.toString()
+        var mk2 = binding.mk2Input.text.toString()
+        var mk3 = binding.mk3Input.text.toString()
+        var mk4 = binding.mk4Input.text.toString()
+        var nilai = binding.nilai1Input.text.toString()
+        var nilai2 = binding.nilai2Input.text.toString()
+        var nilai3 = binding.nilai3Input.text.toString()
+        var nilai4 = binding.nilai4Input.text.toString()
+        var sks = binding.sks1Input.text.toString()
+        var sks2 = binding.sks2Input.text.toString()
+        var sks3 = binding.sks3Input.text.toString()
+        var sks4 = binding.sks4Input.text.toString()
+
+        if (TextUtils.isEmpty(sks) && TextUtils.isEmpty(sks2) && TextUtils.isEmpty(sks3) && TextUtils.isEmpty(
+                sks4
+            )
+            && TextUtils.isEmpty(nilai) && TextUtils.isEmpty(nilai2) && TextUtils.isEmpty(nilai3) && TextUtils.isEmpty(
+                nilai4
+            )
+            && TextUtils.isEmpty(mk) && TextUtils.isEmpty(mk2) && TextUtils.isEmpty(mk3) && TextUtils.isEmpty(
+                mk4
+            )
+        ) {
+            Toast.makeText(this, R.string.validasiBersih, Toast.LENGTH_LONG).show()
+            return
+        }
+
+
         var inputMk1 = binding.mk1Input
         var inputMk2 = binding.mk2Input
         var inputMk3 = binding.mk3Input
         var inputMk4 = binding.mk4Input
+
+
         var inputSks1 = binding.sks1Input
         var inputSks2 = binding.sks2Input
         var inputSks3 = binding.sks3Input
         var inputSks4 = binding.sks4Input
+
         var inputNilai1 = binding.nilai1Input
         var inputNilai2 = binding.nilai2Input
         var inputNilai3 = binding.nilai3Input
         var inputNilai4 = binding.nilai4Input
+
 
         inputMk1.text = null
         inputMk2.text = null
@@ -51,9 +85,9 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-//PENGINPUTAN UTAMA & VALIDASI
-    private fun hitungIps() {
 
+    //PENGINPUTAN UTAMA & VALIDASI
+    private fun hitungIps() {
 
         val mk = binding.mk1Input.text.toString()
         val nilai = binding.nilai1Input.text.toString()
@@ -176,7 +210,6 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, R.string.validasi24, Toast.LENGTH_LONG).show()
             return
         }
-
 //RUMUS
         val mutu = nilaiGrade.toFloat() * sks.toFloat()
         val mutu2 = nilaiGrade2.toFloat() * sks2.toFloat()
@@ -189,7 +222,5 @@ class MainActivity : AppCompatActivity() {
 
         binding.hasilSks.text = getString(R.string.dari_fronttext, sks_total)
         binding.hasilIps.text = getString(R.string.ips_backtext, hasil_ips)
-
-
     }
 }
