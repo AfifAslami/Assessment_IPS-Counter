@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    //BESIH BUTTON
+    //BESIH BUTTON & VALIDASI
     fun bersih() {
 
         var mk = binding.mk1Input.text.toString()
