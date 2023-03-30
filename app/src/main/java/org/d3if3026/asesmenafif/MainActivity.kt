@@ -90,22 +90,22 @@ class MainActivity : AppCompatActivity() {
 
 //PEMBATASAN SKS & VALIDASI
         if (sks > "4") {
-            Toast.makeText(this, R.string.validasi5, Toast.LENGTH_LONG).show()
+            Toast.makeText(this, R.string.validasi11, Toast.LENGTH_LONG).show()
             return
         }
 
         if (sks2 > "4") {
-            Toast.makeText(this, R.string.validasi5, Toast.LENGTH_LONG).show()
+            Toast.makeText(this, R.string.validasi12, Toast.LENGTH_LONG).show()
             return
         }
 
         if (sks3 > "4") {
-            Toast.makeText(this, R.string.validasi5, Toast.LENGTH_LONG).show()
+            Toast.makeText(this, R.string.validasi13, Toast.LENGTH_LONG).show()
             return
         }
 
         if (sks4 > "4") {
-            Toast.makeText(this, R.string.validasi5, Toast.LENGTH_LONG).show()
+            Toast.makeText(this, R.string.validasi14, Toast.LENGTH_LONG).show()
             return
         }
 
@@ -158,22 +158,22 @@ class MainActivity : AppCompatActivity() {
 
 //PEMBATASAN NILAI & VALIDASI
         if (nilaiGrade > "4") {
-            Toast.makeText(this, R.string.validasi6, Toast.LENGTH_LONG).show()
+            Toast.makeText(this, R.string.validasi21, Toast.LENGTH_LONG).show()
             return
         }
 
         if (nilaiGrade2 > "4") {
-            Toast.makeText(this, R.string.validasi6, Toast.LENGTH_LONG).show()
+            Toast.makeText(this, R.string.validasi22, Toast.LENGTH_LONG).show()
             return
         }
 
         if (nilaiGrade3 > "4") {
-            Toast.makeText(this, R.string.validasi6, Toast.LENGTH_LONG).show()
+            Toast.makeText(this, R.string.validasi23, Toast.LENGTH_LONG).show()
             return
         }
 
         if (nilaiGrade4 > "4") {
-            Toast.makeText(this, R.string.validasi6, Toast.LENGTH_LONG).show()
+            Toast.makeText(this, R.string.validasi24, Toast.LENGTH_LONG).show()
             return
         }
 

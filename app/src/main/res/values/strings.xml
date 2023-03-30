@@ -12,11 +12,19 @@
     <string name="hasil_ips">0 </string>
     <string name="dari_fronttext">Dari %1$.2f SKS </string>
     <string name="ips_backtext">%1$.2f IPS </string>
-    <string name="validasi">Mata Kuliah, SKS dan ,input nilai 1 Tidak Boleh Kosong </string>
-    <string name="validasi2">Mata Kuliah, SKS dan ,input nilai 2 Tidak Boleh Kosong </string>
-    <string name="validasi3">Mata Kuliah, SKS dan ,input nilai 3 Tidak Boleh Kosong </string>
-    <string name="validasi4">Mata Kuliah, SKS dan ,input nilai 4 Tidak Boleh Kosong </string>
-    <string name="validasi5">Inputan SKS Hanya 1 ~ 4 </string>
-    <string name="validasi6">Inputan Nilai Hanya A ~ E </string>
+    <string name="validasi">Kolom 1, Mata Kuliah, SKS dan ,input nilai Tidak Boleh Kosong </string>
+    <string name="validasi2">Kolom 2, Mata Kuliah, SKS dan ,input nilai Tidak Boleh Kosong </string>
+    <string name="validasi3">Kolom 3, Mata Kuliah, SKS dan ,input nilai Tidak Boleh Kosong </string>
+    <string name="validasi4">Kolom 4, Mata Kuliah, SKS dan ,input nilai Tidak Boleh Kosong </string>
+
+    <string name="validasi11">Kolom 1, Inputan SKS Hanya 1 ~ 4 </string>
+    <string name="validasi12">Kolom 2, Inputan SKS Hanya 1 ~ 4 </string>
+    <string name="validasi13">Kolom 3, Inputan SKS Hanya 1 ~ 4 </string>
+    <string name="validasi14">Kolom 4, Inputan SKS Hanya 1 ~ 4 </string>
+
+    <string name="validasi21">Kolom 1, Inputan Nilai Hanya A ~ E </string>
+    <string name="validasi22">Kolom 2, Inputan Nilai Hanya A ~ E </string>
+    <string name="validasi23">Kolom 3, Inputan Nilai Hanya A ~ E </string>
+    <string name="validasi24">Kolom 4, Inputan Nilai Hanya A ~ E </string>
 
 </resources>
