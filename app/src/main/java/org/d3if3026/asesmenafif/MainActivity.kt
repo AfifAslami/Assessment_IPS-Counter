@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         binding.bersihButton.setOnClickListener { bersih() }
     }
 
+//BESIH BUTTON
     fun bersih() {
         var inputMk1 = binding.mk1Input
         var inputMk2 = binding.mk2Input
@@ -50,6 +51,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+//PENGINPUTAN UTAMA & VALIDASI
     private fun hitungIps() {
 
 
@@ -86,8 +88,28 @@ class MainActivity : AppCompatActivity() {
             return
         }
 
-//        val hasil_ips = (nilai.toFloat() + nilai2.toFloat() + nilai3.toFloat() + nilai4.toFloat()) /sks_total
+//PEMBATASAN SKS & VALIDASI
+        if (sks > "4") {
+            Toast.makeText(this, R.string.validasi5, Toast.LENGTH_LONG).show()
+            return
+        }
 
+        if (sks2 > "4") {
+            Toast.makeText(this, R.string.validasi5, Toast.LENGTH_LONG).show()
+            return
+        }
+
+        if (sks3 > "4") {
+            Toast.makeText(this, R.string.validasi5, Toast.LENGTH_LONG).show()
+            return
+        }
+
+        if (sks4 > "4") {
+            Toast.makeText(this, R.string.validasi5, Toast.LENGTH_LONG).show()
+            return
+        }
+
+//PENGCONVERTAN NILAI
         val grade = binding.nilai1Input.text.toString()
         val nilaiGrade = when (grade) {
             "A" -> "4"
@@ -107,7 +129,6 @@ class MainActivity : AppCompatActivity() {
             "C" -> "2"
             "D" -> "1"
             "E" -> "0"
-
 
             else -> "Masukan A-D memakai Huruf Kapital"
         }
@@ -134,8 +155,29 @@ class MainActivity : AppCompatActivity() {
 
             else -> "Masukan A-D memakai Huruf Kapital"
         }
-//        val hasil_ips = (nilaiGrade.toFloat() + nilaiGrade2.toFloat() + nilaiGrade3.toFloat() + nilaiGrade4.toFloat()) / sks_total
 
+//PEMBATASAN NILAI & VALIDASI
+        if (nilaiGrade > "4") {
+            Toast.makeText(this, R.string.validasi6, Toast.LENGTH_LONG).show()
+            return
+        }
+
+        if (nilaiGrade2 > "4") {
+            Toast.makeText(this, R.string.validasi6, Toast.LENGTH_LONG).show()
+            return
+        }
+
+        if (nilaiGrade3 > "4") {
+            Toast.makeText(this, R.string.validasi6, Toast.LENGTH_LONG).show()
+            return
+        }
+
+        if (nilaiGrade4 > "4") {
+            Toast.makeText(this, R.string.validasi6, Toast.LENGTH_LONG).show()
+            return
+        }
+
+//RUMUS
         val mutu = nilaiGrade.toFloat() * sks.toFloat()
         val mutu2 = nilaiGrade2.toFloat() * sks2.toFloat()
         val mutu3 = nilaiGrade3.toFloat() * sks3.toFloat()
@@ -146,7 +188,7 @@ class MainActivity : AppCompatActivity() {
         val hasil_ips = nilai_total.toFloat() / sks_total.toFloat()
 
         binding.hasilSks.text = getString(R.string.dari_fronttext, sks_total)
-        binding.hasilIps.text = hasil_ips.toString() + "IPS"
+        binding.hasilIps.text = getString(R.string.ips_backtext, hasil_ips)
 
 
     }
