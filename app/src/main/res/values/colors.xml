@@ -12,4 +12,8 @@
     <color name="black_discord">#2C2F33</color>
     <color name="darkblack_discord">#23272A</color>
 
+    <color name="cukup">#F57F17</color>
+    <color name="tinggi">#2E7D32</color>
+    <color name="kurang">#D32F2F</color>
+
 </resources>

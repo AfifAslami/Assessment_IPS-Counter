@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">IPS COUNTER</string>
+     <string name="app_name">IPS COUNTER</string>
     <string name="ips_info">Aplikasi Penghitung Indeks Prestasi Semester (IPS) Dengan Penghitungan Dari 4 Mata Kuliah </string>
-    <string name="nilai_info">Inputan Nilai ( A ~ E ) </string>
+    <string name="nilai_info">Inputan SKS ( 1 ~ 4 )\nInputan Nilai ( 0 ~ 4 )  </string>
     <string name="mk_1">Mata Kuliah </string>
     <string name="sks_1">SKS </string>
     <string name="nilai_1">Nilai </string>
@@ -9,7 +9,14 @@
     <string name="hasil_sks">Dari 0 SKS </string>
     <string name="hitung_button">HITUNG </string>
     <string name="bersih_button">BERSIH </string>
+    <string name="sharebutton">BAGIKAN </string>
     <string name="hasil_ips">0 </string>
+
+    <string name="hasil">%1$.2f</string>
+    <string name="hasil_x">Hasil IPS : %1$.2f - %2$s </string>
+    <string name="total_x">Total SKS : %1$.2f </string>
+    <string name="kate_x">Kategori : %1$s </string>
+
     <string name="dari_fronttext">Dari %1$.2f SKS </string>
     <string name="ips_backtext">%1$.2f IPS </string>
     <string name="validasi">Kolom 1, Mata Kuliah, SKS dan ,input nilai Tidak Boleh Kosong </string>
@@ -27,7 +34,26 @@
     <string name="validasi23">Kolom 3, Inputan Nilai Hanya A ~ E </string>
     <string name="validasi24">Kolom 4, Inputan Nilai Hanya A ~ E </string>
 
+    <string name="kurang">Kurang</string>
+    <string name="cukup">Cukup</string>
+    <string name="tinggi">Tinggi</string>
+
 
     <string name="validasiBersih">Tidak Ada Yang Harus Dibersihkan </string>
+    <string name="belum_ada_data">Belum Ada <Data></Data></string>
+    <string name="bagikan_template">\nHasil IPS: %1$s\n%2$s</string>
+    <string name="copyright">Aplikasi Penghitung Indeks Prestasi Semester (IPS) Mahasiswa Otomatis.\nDengan Cara Menginputkan 4 Mata Kuliah , SKS dan, Nilai.\n\n- SKS di inputkan (1 ~ 4).\n- Nilai di inputkan menggunakan (0 ~ 4).
+        \n- Ketika di klik Hitung akan tampil hasil penghitungan IPS.
+        \n- Ketika di klik Bersih akan membersihkan semua kolom inputan.\n\nLink Github dibawah ini : \nhttps://github.com/AfifAslami/Assessment_IPS-Counter.git\n\nCopyright © 2023 Afif Aslami.\nAll rights reserved.</string>
+
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="histori">Histori</string>
+
+    <string name="hapus_histori">Hapus Histori</string>
+    <string name="konfirmasi_hapus">Hapus semua histori?</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+
+
 
 </resources>
