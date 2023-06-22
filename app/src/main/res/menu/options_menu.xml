@@ -9,5 +9,9 @@
         android:icon="@drawable/baseline_history_24"
         android:title="@string/histori"
         app:showAsAction="ifRoom" />
-
+    <item
+        android:id="@+id/menu_motivasi"
+        android:icon="@drawable/baseline_accessibility_new_24"
+        android:title="@string/motivasi"
+        app:showAsAction="ifRoom" />
 </menu>

@@ -48,12 +48,20 @@
 
     <string name="tentang_aplikasi">Tentang Aplikasi</string>
     <string name="histori">Histori</string>
+    <string name="motivasi">Motivasi</string>
 
     <string name="hapus_histori">Hapus Histori</string>
     <string name="konfirmasi_hapus">Hapus semua histori?</string>
     <string name="hapus">Hapus</string>
     <string name="batal">Batal</string>
+    <string name="koneksi_error"> Tidak Ada Koneksi </string>
 
+    <string name="message">%1$s diklik!</string>
 
+    <string name="channel_name">Updater</string>
+    <string name="channel_desc">Update data hewan otomatis</string>
+
+    <string name="notif_title">Ada Kata-Kata Motivasi Baru!</string>
+    <string name="notif_text">Cek sekarang biar Kamu Semangat dan Termotivasi, </string>
 
 </resources>

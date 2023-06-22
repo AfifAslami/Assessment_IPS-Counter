@@ -15,6 +15,9 @@
         <action
             android:id="@+id/action_hitungFragment_to_historiFragment"
             app:destination="@id/historiFragment" />
+        <action
+            android:id="@+id/action_hitungFragment_to_motivasiFragment"
+            app:destination="@id/motivasiFragment" />
     </fragment>
 
 
@@ -27,5 +30,9 @@
         android:id="@+id/historiFragment"
         android:name="org.d3if3026.asesmenafif.ui.histori.HistoriFragment"
         android:label="HistoriFragment" />
+    <fragment
+        android:id="@+id/motivasiFragment"
+        android:name="org.d3if3026.asesmenafif.motivasi.MotivasiFragment"
+        android:label="motivasiFragment" />
 
 </navigation>
